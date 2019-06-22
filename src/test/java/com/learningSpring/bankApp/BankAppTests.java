@@ -10,16 +10,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BankAppApplicationTests {
+public class BankAppTests {
 
-	Double convertedAmount = 10.0;
+	private Double convertedAmount = 10.0;
 
 	@Autowired
 	private ConvertCurrency convertCurrency;
 
 	@Before
 	public void beginTest() {
-		BankAppApplication bankAppApplication = new BankAppApplication();
+		BankApp bankApp = new BankApp();
 	}
 
 	@Test

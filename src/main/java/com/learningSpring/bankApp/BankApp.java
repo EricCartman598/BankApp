@@ -4,9 +4,7 @@ import com.learningSpring.bankApp.services.ConvertCurrency;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import javax.annotation.Resource;
-
-public class BankAppApplication {
+public class BankApp {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
